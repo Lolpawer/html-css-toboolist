@@ -32,20 +32,22 @@ header {
     background-color: #f6f8f9;
     padding-top: 50px;
     padding-left: 300px;
+    padding-bottom: 100px;
 }
 
 .primo-blocco {
     background-color: #ffffff;
-    display: inline-block;
     padding-top: 15px;
     padding-left: 50px;
     padding-bottom: 10px;
     width: 1000px;
     border-radius: 5%;
+    margin-bottom: 5px;
 }
 
 .task {
     display: inline-block;
+    border: 2px #47adf1 solid;
     background-color: #47adf1;
     color: #ffffff;
     padding: 10px 10px;
@@ -58,4 +60,92 @@ header {
     color: #dfe2e5;
     padding: 10px 10px;
     border-radius: 15%;
+}
+
+.secondo-blocco {
+    background-color: #ffffff;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    width: 1000px;
+    border-radius: 1%;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-top: 10px;
+}
+.check {
+    color: green;
+    border: 1px green solid;
+    border-radius: 100%;
+}
+
+.cross {
+    color: red;
+    border: 1px red solid;
+    border-radius: 100%;
+}
+
+.editorial {
+    display: inline-block;
+    background-color: #47adf1;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 25%;
+    font-size: 13px;
+}
+
+.q1-goals {
+    display: inline-block;
+    background-color: #9c72e4;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 25%;
+    font-size: 13px;
+}
+
+.recruiting {
+    display: inline-block;
+    background-color: #64c0a9;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 25%;
+    font-size: 13px;
+}
+
+.mobile {
+    display: inline-block;
+    background-color: #f29e33;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 25%;
+    font-size: 13px;
+}
+
+.website {
+    display: inline-block;
+    background-color: #d863a1;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 25%;
+    font-size: 13px;
+}
+
+.sales {
+    display: inline-block;
+    background-color: #b0c926;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 25%;
+    font-size: 13px;
 }
