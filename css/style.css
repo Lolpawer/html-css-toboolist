@@ -6,7 +6,7 @@
 }
 
 .contenitore {
-    width: 1200px;
+    width: 2000px;
 }
 
 header {
@@ -26,4 +26,36 @@ header {
     vertical-align: middle;
     font-size: 40px;
     font-weight: 900;
+}
+
+.contenitore-grigio {
+    background-color: #f6f8f9;
+    padding-top: 50px;
+    padding-left: 300px;
+}
+
+.primo-blocco {
+    background-color: #ffffff;
+    display: inline-block;
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    width: 1000px;
+    border-radius: 5%;
+}
+
+.task {
+    display: inline-block;
+    background-color: #47adf1;
+    color: #ffffff;
+    padding: 10px 10px;
+    border-radius: 15%;
+}
+
+.section {
+    display: inline-block;
+    border: 2px #dfe2e5 solid;
+    color: #dfe2e5;
+    padding: 10px 10px;
+    border-radius: 15%;
 }
